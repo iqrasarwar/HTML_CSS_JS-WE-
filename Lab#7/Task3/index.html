@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Student Result Summary</title>
+   <style>
+      div{
+         text-align: center;
+      }
+      .box{
+         border: 2px solid black;
+      }
+      .box div{
+         display: inline-block;
+      }
+      .subject
+      {
+         width: 9%;
+      }
+      .marks
+      {
+         width: 11%;
+      }
+      .chart
+      {
+         border: 2px solid black;
+         margin: 4px;
+         padding: 3px;
+      }
+      .chart_div div
+      {
+         display: block;
+      }
+      #psychology
+      {
+         width: 900px;
+         background-color: darkgreen;
+      }
+      #web
+      {
+         width: 990px;
+         background-color: red;
+      }
+      #algo
+      {
+         width: 880px;
+         background-color: lightgreen;
+      }
+      #ooad
+      {
+         width: 1000px;
+         background-color: yellow;
+      }
+   </style>
+</head>
+<body>
+   <h2>
+      Student Result Summary
+   </h2>
+   <div class="box">
+      <div class="subject">
+         <h2>Subject</h2>
+         <p>PSYCHOLOGY</p>
+         <p>WEB</p>
+         <p>ALGO</p>
+         <p>OOAD</p>
+      </div>
+      <div class="marks">
+         <h2>
+            Marks(100%)
+         </h2>
+         <p>90</p>
+         <p>99</p>
+         <p>88</p>
+         <p>100</p>
+      </div>
+      <div class="chart_div">
+         <h2>
+            Chart
+         </h2>
+         <div class="chart" id="psychology">
+            90%
+         </div>
+         <div class="chart" id="web">
+            99%
+         </div>
+         <div class="chart" id="algo">
+            88%
+         </div>
+         <div class="chart" id="ooad">
+            100%
+         </div>
+      </div>
+   </div>
+</body>
+</html>
