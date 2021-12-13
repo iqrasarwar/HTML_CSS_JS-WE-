@@ -1,0 +1,87 @@
+html{
+   min-height: 100%;
+}
+body
+{
+   background-position: fixed;
+   background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%) !important;
+}
+div
+{
+   align-content: center;
+}
+.btn
+{
+background-color: darkcyan;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 40px;
+}
+.container
+{
+   margin: 0% 30%;
+   margin-top: 3%;
+}
+.container div
+{
+   background-color: rgb(255, 255, 255);
+   width: 500px;
+   height: 45vh;
+   padding: 2%;
+   border: 1px rgb(153, 147, 147) solid;
+   position: absolute;
+   z-index: 1;
+}
+#rbox1
+{
+   -ms-transform: rotate(2deg);
+   transform: rotate(2deg);
+}
+#rbox2
+{
+   -ms-transform: rotate(-3deg);
+   transform: rotate(-3deg);
+}
+.rotatedBox :nth-child(n)
+{
+   display: block;
+   position: relative;
+   margin: 3% 24%;
+   width: 50%;
+}
+input
+{
+   background-color: rgb(247, 239, 239);
+   border: 2px solid rgb(161, 157, 157);
+   height: 25px;
+}
+#name
+{
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   margin-bottom: 0%;
+   border-bottom: none;
+}
+#password
+{
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   margin-top: 0%;
+}
+input::placeholder
+{
+   text-align: center;
+}
+footer
+{
+   position:fixed;
+   bottom: 0px;
+   margin-left: 39%;
+   color: rgb(63, 55, 55);
+   font-family: Arial, Helvetica, sans-serif;
+}
+footer img{
+   height: 130px;
+   margin-left: 37%;
+}
