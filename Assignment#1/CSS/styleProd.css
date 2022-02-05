@@ -1,0 +1,62 @@
+/* product page */
+
+/* Product */
+.prodGrid
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto auto;
+}
+.productdiv
+{
+   padding: 0% 20%;
+   background-color: whitesmoke;
+}
+.prodGrid .hcard1
+{
+   background-color: white;
+   text-align: center;
+   font-size: large;
+   font-weight: bold;
+   height: 40px;
+   padding: 2%;
+   margin: 0%;
+   margin-top: -2%;
+}
+.Hcard1{
+   width: 258px;
+   border: 1px solid rgb(225, 222, 222);
+   border-radius: 2rem;
+   overflow: hidden;
+}
+.Hcard1 img
+{
+width: 258px;
+height: 268px;
+}
+.productdiv h1{
+   text-align: center;
+   padding: 4%;
+   padding-bottom: 2%;
+}
+.prodGrid .contactCardImg
+{
+   border-radius: 0%;
+   border: none;
+}
+.hcard1Table
+{
+   padding: 5% 31%;
+}
+.Hcard1 button
+{
+   border: 2px black solid;
+   border-radius: 4px;
+   padding: 4% 8%;
+   justify-self: center;
+   background-color: rgb(230, 220, 220);
+}
+.Hcard1 a{
+   text-decoration: none;
+   color: black;
+}

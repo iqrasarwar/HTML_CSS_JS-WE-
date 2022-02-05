@@ -1,1 +1,221 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+/* header styling */
+.head
+{
+  background-color: rgb(236, 239, 240);
+  padding: 1% 15%;
+}
+nav li
+{
+   display: inline-block;
+   font-weight: bold;
+   font-family: 'Courier New', Courier, monospace;
+   padding: 7px;
+}
+li a{
+   text-decoration: none;
+   color: black;
+}
+nav
+{
+   display: inline-block;
+}
+.head h1{
+   text-align: center;
+}
+.search
+{
+   border-radius: 25px;
+   height: 30px;
+   border: rgb(162, 169, 175) solid 1px;
+}
+.search::placeholder
+{
+   padding: 5%;
+}
+.navdiv
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.searchdiv i{
+   padding: 10px;
+}
 
+/* Footer styling */
+.foot
+{
+   background-color: rgb(140, 0, 255);
+   padding: 5% 15%;
+   color: white;
+}
+.foot h1
+{
+   padding: 6% 0%;
+   margin: 0%;
+   padding-top: 0%;
+}
+.foot li a
+{
+   color: white;
+}
+.colgrid
+{
+   padding: 0% 3%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.col1, .col2, .col3
+{
+   width: 20%;
+}
+.col3 ul li i{
+margin-right: 12%;
+}
+.foot li{
+   list-style: none;
+   padding: 5%;
+}
+.colgrid div ul li:first-child
+{
+   font-weight: bold;
+   font-size: large;
+}
+hr
+{
+   margin-top: 6%;
+   margin-bottom: 2%;
+}
+.bootstrap
+{
+   font-weight: bold;
+}
+.end
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.footicon i
+{
+   margin: 10px;
+}
+
+/* HOME PAGE CONTENT STYLING */
+.contentHome
+{
+   background-image: url('../Img/background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0% 15%;
+   padding-bottom: 3%;
+}
+.hfullimg
+{
+   width: 100%;
+   height: 50vh;
+}
+.hHeading
+{
+   text-align: center;
+   margin-top: 3%;
+   margin-bottom: 6%;
+   font-weight: bolder;
+}
+.hcard1info
+{
+padding:10%;
+}
+.HcardFlex
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   font-weight: bolder;
+   text-align: center;
+   justify-content: space-evenly;
+}
+.hcard1info
+{
+   background-color: white;
+   margin-top: -2%;
+}
+.HcardFlex  img
+{
+height: 250px;
+width: 250px;
+}
+.hcard1Table
+{
+background-color: rgb(230, 220, 220);
+padding: 9%;
+padding-bottom: 1%;
+box-sizing: border-box;
+}
+.hcard1Table table thead
+{
+   background-color: white;
+}
+.hcard1Table table tbody tr:nth-child(2n)
+{
+   background-color: rgb(255, 255, 255);
+}
+.hcard1Table table tbody tr:nth-child(2n+1)
+{
+   background-color: rgb(242, 234, 234);
+}
+.hcard1Table td, .hcard1Table th
+{
+padding: 18px;
+}
+.hbuton
+{
+   color: rgb(32, 177, 32);
+   border: 2px rgb(32, 177, 32) solid;
+   background-color: rgb(230, 220, 220);
+   padding: 4% 7%;
+   border-radius: 5px;
+   margin:10%;
+   margin-bottom: 1%;
+}
+.Hcard1{
+   border: 1px rgb(228, 219, 219) solid;
+   border-radius: 3px;
+}
+.rotRight .hcard1Table table{
+   margin: auto;
+   width: 90% !important;
+}
+
+/* contact bonus part */
+.contactDiv .Hcard1{
+   box-shadow: 0px 10px 10px rgb(185, 186, 187);
+}
+.rotleft
+{
+   transform: rotateX(20deg) rotateY(-30deg);
+}
+.rotRight
+{
+   transform: rotateX(-20deg) rotateY(-30deg);
+   height: max-content;
+}
+.big
+{
+   transform: scaleX(1.2) scaleY(1.1);
+   z-index: 1;
+}
+.contactDiv a{
+   text-decoration: none;
+}
+.contactbuton a
+{
+color: black;
+text-decoration: none;
+}

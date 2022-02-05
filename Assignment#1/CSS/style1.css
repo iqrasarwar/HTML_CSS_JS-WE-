@@ -1,0 +1,165 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+/* CONTACT STYLING */
+.contactDiv
+{
+background-image: url('../Img/background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 2% 15%;
+padding-bottom: 0%;
+}
+.contactContent
+{
+   background-color: aliceblue;
+   border-radius: 10px;
+   padding: 1% 12%;
+   text-align: center;
+   border: 1px solid black;
+}
+.input
+{
+   width: 90%;
+   margin: 1%;
+   padding: 1%;
+   border:1px solid black;
+   border-radius: 5px;
+}
+input[type='submit']
+{
+   width: 50%;
+   background-color: aliceblue;
+   border: 2px solid black;
+   padding: 1%;
+   border-radius: 25px;
+}
+.contactDiv h1{
+   text-decoration: underline;
+   margin: 5%;
+}
+.contactDiv h2{
+   color: rgb(20, 152, 213);
+   font-weight: bolder;
+  margin-bottom: 2%;
+}
+.contactCardImg
+{
+   border-radius: 100%;
+   border: 1px solid black;
+}
+.Hcard1
+{
+   background-color: rgb(247, 243, 237);
+   width: 230px;
+}
+.Hcard1 img{
+   width: 226px;
+}
+.hcard1
+{
+margin-bottom: 6%;
+
+}
+.hcard1Table td
+{
+   padding: 12px;
+}
+.hcard1Table
+{
+   padding: 4%;
+   background-color: rgb(240, 236, 236);
+   padding-bottom: 10%;
+}
+.hcard1Table tr td
+{
+background-color: black;
+color: white;
+}
+.hcard1Table table
+{
+background-color: black;
+}
+/* PRODUCT DESC STYLING */
+.flex
+{
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto;
+   justify-content: center;
+}
+.deshead
+{
+   text-align: center;
+   margin: 3%;
+   font-family: 'Libre Baskerville', serif;
+}
+.desccontent
+{
+
+  text-align: center;
+  text-justify: inter-word;
+   grid-column: 2;
+}
+.pics
+{
+  grid-column: 1;
+  margin-left: 20%;
+}
+.pics .bigPic
+{
+width: 70%;
+}
+.smallPic
+{
+   width: 25%;
+   margin: 3%;
+}
+.contactbuton
+{
+   background-color: white;
+   margin: 55;
+}
+.descInfo .hcard1Table
+{
+   padding: 0%;
+   background-color: white;
+}
+.descInfo hr{
+  margin: 1%;
+}
+.hcard1Table table
+{
+   border: 1px solid black;
+   width: 80%;
+   margin: auto;
+}
+.availabilitydiv table
+{
+   width: 40%;
+   margin: auto;
+}
+.availabilitydiv h1, .pricediv h1
+{
+margin: 1%;
+}
+.dif tr td{
+   color: black;
+}
+.dif tr:nth-child(2n+1) td
+{
+   background-color: rgb(235, 226, 214);
+}
+.dif tr:nth-child(2n) td
+{
+   background-color: rgb(255, 255, 255);
+}
+.contactbuton{
+   padding:1% 14%;
+   margin: 2%;
+border: black 2px solid;
+border-radius: 6px;
+font-weight: bold;
+}
